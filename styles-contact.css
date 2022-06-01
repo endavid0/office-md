@@ -133,7 +133,7 @@ p {
 	/*margin-top: 2em;*/
     width: 100%;  /* i'm assuming full width */
     height: 125px; /* change it to desired width */
-    /*background: rgba(255, 255, 255, .75) /* change to desired color */
+    background: rgba(255, 255, 255, .75) /* change to desired color */
 }
 
 .logo { /*STYLES LOGO IN NAVIGATION BAR*/
