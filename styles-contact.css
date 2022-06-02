@@ -66,7 +66,7 @@ body {
 .center {
 	width: 800px;
 	padding: 2%;
-	margin: 100px auto;
+	margin: 1px auto;
 	/*background: rgba(0, 150, 178, .75);
 	/*this uses opacity of 75% for the background color*/
 	text-align: center;
@@ -79,17 +79,22 @@ body {
 	text-align: center;
 }
 
-h1 {
+#headshots {
+	margin-bottom: 15px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+h1 { /*HEADER 01*/
 	font-family: calling-code, sans-serif;
 	font-weight: 600;
 	font-style: normal;
 	font-size: 2em;
-	margin: 0px auto 10px auto;
-	color: #fff;
+	margin: 20px auto 10px auto;
+	color: #a1ff3d;
 }
 
-h2 {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+h2 { /*HEADER 02*/
 	font-family: calling-code,sans-serif;
 	font-weight: 300;
 	font-style: normal;
@@ -101,7 +106,7 @@ h2 {
 }
 
 p {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	/* PARAGRAPH */
 	font-family: calling-code,sans-serif;
 	font-weight: 300;
 	font-style: normal;
@@ -109,30 +114,74 @@ p {
 	line-height: 1.6;
 	color: #fff;
 }
-.leftish {
-	vertical-align: middle;
-	align-items: center;
-	float: left;
-	padding: 10%;
-	margin-bottom: 30px;
+
+h4 { /*HEADER 01 FOR ABOUT US*/
+	font-family: calling-code, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 1.75em;
+	margin-top: 2em;
+	/*padding-top: 5%;*/
+	/*margin: 20px auto 10px auto;*/
+	color: #444;
 }
 
-#leftish {
-	margin-bottom: 10px;
-	text-align: start;
+h5 { /*HEADER 02 FOR ABOUT US*/
+	font-family: calling-code,sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.2em;
+	line-height: 1.4;
+	color: rgba(134, 250, 84, 1);
+	padding: 0px 0px;
+	margin: 25px auto 5px auto;
+}
+
+h6 { /* PARAGRAPH FOR ABOUT US */
+	font-family: calling-code,sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: .85em;
+	line-height: 1.2;
+	color: #444;
+	background: rgba(255, 255, 255, .75);
+	padding: 2%;
+	border-radius: 1em;
+}
+
+.leftish { /*ABOUT US FORMATTING*/
+	width: 750px;
+	padding: 2%;
+	padding-top: .5%;
+	margin-top: 50px;
+	margin: 1px auto;
+	text-align: left;
+	/*background: rgba(255,255,255,.5);*/
+	margin-bottom: 1em;
+	border-radius: 1.5em;
+}
+
+#leftish { /*ABOUT US FORMATTING*/
+	margin-bottom: 1em;
+	text-align: left;
+}
+
+#leftish img { /*ABOUT US FORMATTING*/
+	border-radius: .75em;
 }
 
 .navigation-bar { /*STYLES NAVIGATION BAR*/
 	font-family: calling-code,sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	/*line-height: 1.6;*/
 	margin: 0 auto;
+
 	text-align: right;
 	/*margin-top: 2em;*/
     width: 100%;  /* i'm assuming full width */
-    height: 125px; /* change it to desired width */
+    height: 100px; /* change it to desired width */
     background: rgba(255, 255, 255, .75) /* change to desired color */
 }
 
@@ -140,7 +189,7 @@ p {
     /*display: inline-block;*/
     vertical-align: middle;
 	float: left;
-	padding: 2%;
+	padding: 10px;
     /*margin-right: 20px;
     margin-top: 15px;    /* if you want it vertically middle of the navbar. */
 }
@@ -167,8 +216,7 @@ nav a {
 
 a:hover {
 	color:black;
-	background: rgba(255,255,255,.5);
-	
+	/*background: rgba(255,255,255,.5);*/
 }
 
 .grow:hover {
@@ -180,7 +228,7 @@ a:hover {
 /* Dropdown Button */
 .dropbtn {
 	color: #444;
-	font-size: 24px;
+	font-size: 20px;
 	border: none;
 	font-family: calling-code,sans-serif;
 	font-weight: 700;
@@ -209,7 +257,7 @@ a:hover {
 	z-index: 1;
   }
   
-  /* Links inside the dropdown */
+/* Links inside the dropdown */
   .dropdown-content a {
 	color: black;
 	padding: 12px 16px;
@@ -217,14 +265,88 @@ a:hover {
 	display: block;
   }
   
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: rgb(172, 208, 255);}
+/* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgb(172, 208, 255,.70);}
   
-  /* Show the dropdown menu on hover */
+/* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
   
-  /* Change the background color of the dropdown button when the dropdown content is shown */
+/* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn 
   {		color:black;
 		background: rgb(255,255,255,.5)
 	}
+
+/*-----------BEGINNING OF PROJECT PAGE FORMATTING-----------*/
+
+
+body a {
+    text-decoration: none;
+}
+.thumb {
+    display: inline;
+    max-height: 20em;
+}
+#thumblist {
+    text-align: center;
+    border-radius: .5em;
+    padding-bottom: 5%;
+}
+
+#thumblist img {
+    border-radius: .75em;
+}
+
+.description {
+      color: #444;
+      text-decoration: none;
+	  margin-top: 2%;
+}
+
+/** relevant CSS Below **/
+
+.lightbox {
+    display: none; /**sets the default display to hide the lightbox until it's the :target**/
+    position: fixed; /**the rest of this styling makes the lightbox full screen when selected**/
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+	vertical-align: top;
+    top: 0;
+    left: 0;
+	background: rgba(0,0,0,.8);
+}
+.lightbox img { /**sets the styling of the image in the lightbox**/
+	max-width: 90%;
+	max-height: 50em;
+    text-align: center;
+	background: none;
+}
+
+.lightbox:target { /**this is where the magic happens. makes the lightbox display when it's the target of a clickable link**/
+    outline: none;
+    display: block;
+}
+
+.previous { /**styling the left arrow**/
+    position: fixed;
+    left: 4px;
+    top: 40%;
+    width: 40px;
+	background: none;
+}
+.exit { /**styling the exit button**/
+    position: fixed;
+    top: 4px;
+    right: 4px;
+    width: 40px;
+	background: none;
+}
+.next { /**styling the right arrow**/
+    position: fixed;
+    right: 4px;
+    top: 40%;
+    width: 40px;
+	background: none;
+}

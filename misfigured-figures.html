@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html>
+
+
+<head>
+
+    <meta charset=”UTF-8”>
+
+    <link rel="stylesheet" href="https://use.typekit.net/aem5kqp.css">
+<!-- THE TITLE WILL APPEAR IN THE BROWSER WINDOW OR TAB -->
+    <title>misfigured figures</title>
+    <link rel="stylesheet" type="text/css" href="styles-contact.css">
+</head>
+
+<body>
+    <nav class="navigation-bar"> <!--START OF NAVIGATION BAR-->
+        <img class="logo" src="images/small-logo@2x.png" alt="Office, MD Logo" width="150px">
+            <li><a href="index.html">HOME</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">PROJECTS</button>
+                <div class="dropdown-content">
+                    <a href="misfigured-figures.html">DOLLHOUSE_01</a></li>
+                    <a href="dollhouse-diplomacy.html">DOLLHOUSE_02</a></li>
+                    <a href="chad-chair.html">CHAIR_01</a></li>
+                    <a href="mini-timber.html">SHED_01</a></li>
+                    <a href="shed-in-illinois.html">SHED_02</a></li>
+                </div>
+              </div>
+            <li><a href="images/brochure.pdf">BROCHURE</a></li>
+            <li><a href="about-us.html">ABOUT US</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">COLLABORATORS</button>
+                <div class="dropdown-content">
+                    <a href="http://www.elliotor.com">BELLIOT</a></li>
+                    <a href="http://www.aurasaki.com">AXLE UNO</a></li>
+                </div>
+              </div>
+            <li><a href="mailto:ericandavid15@gmail.com">CONTACT US!</a></li>
+        </ul>
+       </div>
+   </div><!--END OF NAVIGATION BAR-->
+
+   <div class="leftish"> <!--TITLE FORMATTING-->
+    <h4>MISFIGURED FIGURES :: dollhouse_01</h4>
+    </div> 
+<!-- END OF TEXT -->  
+
+
+   <div id="thumblist">
+
+<!--IMAGE 01-->
+    <a href="#image1"> 
+      <img src="images/mf-lightpaint.png" class="thumb"/><!--you'll want to change the link in there, it's just a placeholder-->
+    </a>
+      <!--what the user sees before clicking anything-->
+      
+    <div id="image1" class="lightbox"> <!--what the user sees after clicking the first image-->
+        
+    <a href="#image7"> <!--BACK ARROW--> <!--CHANGE--> 
+        <img src="images/back.png" class="previous"/> 
+    </a>
+
+      <a href="#_"> <!--no need for a left arrow because there is no previous image to go to-->
+        <img src="images/mf-lightpaint.png" />
+          <!--this is the actual image that 'grows'. You'll want this link to match the one in #image1-->
+      </a>
+        
+      <a href="#_"><!--this href takes out out of full screen. -->
+        <img src="images/x.png" class="exit"/><!--exit button-->
+      </a>
+        
+      <a href="#image2"><!--this href leads you to the next image in the slideshow-->
+        <img src="images/next.png" class="next"/><!--next button-->
+      </a>
+        
+    </div>
+
+
+
+<!--IMAGE 02-->
+    <a href="#image2"><!--this href leads you to the previous image-->
+      <img src="images/mf-back.png" class="thumb" /><!--left arrow button-->
+    </a>
+      
+    <div id="image2" class="lightbox"><!--from here on out, the same comments apply. Notice that the href for the previous selector is set to the id of the lightbox div for the previous image, opposite goes for the next selector. This is what makes the slider work. There are some that use CSS and huge margins, but I prefer to keep my markup and css simple enough to explain. Hope you can use this!-->
+      <a href="#image1">
+        <img src="images/back.png" class="previous"/>
+      </a>
+        
+      <a href="#_">
+        <img src="images/mf-back.png" />
+      </a>
+        
+      <a href="#_">
+        <img src="images/x.png" class="exit"/>
+      </a>
+        
+      <a href="#image3">
+        <img src="images/next.png" class="next"/>
+      </a>
+        
+    </div>
+    
+
+<!--IMAGE 03-->
+    <a href="#image3"> <!--THUMBNAIL IMAGE-->
+      <img src="images/mf-context-blue.png" class="thumb" />
+    </a>
+      
+    <div id="image3" class="lightbox">
+        
+      <a href="#image2"> <!--BACK ARROW-->
+        <img src="images/back.png" class="previous"/>
+      </a>
+        
+      <a href="#_"> <!--BIG IMAGE-->
+        <img src="images/mf-context-blue.png" />
+      </a>
+        
+      <a href="#_"> <!--X-->
+        <img src="images/x.png" class="exit"/>
+      </a>
+
+      <a href="#image4"> <!--NEXT ARROW-->
+        <img src="images/next.png" class="next"/>
+      </a>
+    </div>
+
+
+<!--IMAGE 04-->
+<a href="#image4"> <!--THUMBNAIL IMAGE--> <!--CHANGE--> 
+    <img src="images/mf-context-purple.jpg" class="thumb" /> <!--CHANGE--> 
+  </a>
+    
+  <div id="image4" class="lightbox"> <!--CHANGE--> 
+      
+    <a href="#image3"> <!--BACK ARROW--> <!--CHANGE--> 
+      <img src="images/back.png" class="previous"/> 
+    </a>
+      
+    <a href="#_"> <!--BIG IMAGE-->
+      <img src="images/mf-context-purple.jpg" /> <!--CHANGE--> 
+    </a>
+      
+    <a href="#_"> <!--X-->
+      <img src="images/x.png" class="exit"/>
+    </a>
+
+    <a href="#image5"> <!--NEXT ARROW--> <!--CHANGE--> 
+      <img src="images/next.png" class="next"/>
+    </a>
+  </div>
+<!--END OF IMAGE 04-->
+
+
+<!--IMAGE 05-->
+<a href="#image5"> <!--THUMBNAIL IMAGE--> <!--CHANGE--> 
+    <img src="images/mf-pop1.jpg" class="thumb" /> <!--CHANGE--> 
+  </a>
+    
+  <div id="image5" class="lightbox"> <!--CHANGE--> 
+      
+    <a href="#image4"> <!--BACK ARROW--> <!--CHANGE--> 
+      <img src="images/back.png" class="previous"/> 
+    </a>
+      
+    <a href="#_"> <!--BIG IMAGE-->
+      <img src="images/mf-pop1.jpg" /> <!--CHANGE--> 
+    </a>
+      
+    <a href="#_"> <!--X-->
+      <img src="images/x.png" class="exit"/>
+    </a>
+
+    <a href="#image6"> <!--NEXT ARROW--> <!--CHANGE--> 
+      <img src="images/next.png" class="next"/>
+    </a>
+  </div>
+<!--END OF IMAGE 05-->
+
+
+<!--IMAGE 06-->
+<a href="#image6"> <!--THUMBNAIL IMAGE--> <!--CHANGE--> 
+    <img src="images/mf-pop2.jpg" class="thumb" /> <!--CHANGE--> 
+  </a>
+    
+  <div id="image6" class="lightbox"> <!--CHANGE--> 
+      
+    <a href="#image5"> <!--BACK ARROW--> <!--CHANGE--> 
+      <img src="images/back.png" class="previous"/> 
+    </a>
+      
+    <a href="#_"> <!--BIG IMAGE-->
+      <img src="images/mf-pop2.jpg" /> <!--CHANGE--> 
+    </a>
+      
+    <a href="#_"> <!--X-->
+      <img src="images/x.png" class="exit"/>
+    </a>
+
+    <a href="#image7"> <!--NEXT ARROW--> <!--CHANGE--> 
+      <img src="images/next.png" class="next"/>
+    </a>
+  </div>
+<!--END OF IMAGE 06-->
+
+
+<!--IMAGE 07-->
+<a href="#image7"> <!--THUMBNAIL IMAGE--> <!--CHANGE--> 
+    <img src="images/mf-pop3.jpg" class="thumb" /> <!--CHANGE--> 
+  </a>
+    
+  <div id="image7" class="lightbox"> <!--CHANGE--> 
+      
+    <a href="#image6"> <!--BACK ARROW--> <!--CHANGE--> 
+      <img src="images/back.png" class="previous"/> 
+    </a>
+      
+    <a href="#_"> <!--BIG IMAGE-->
+      <img src="images/mf-pop3.jpg" /> <!--CHANGE--> 
+    </a>
+      
+    <a href="#_"> <!--X-->
+      <img src="images/x.png" class="exit"/>
+    </a>
+
+    <a href="#image1"> <!--NEXT ARROW--> <!--CHANGE--> 
+      <img src="images/next.png" class="next"/>
+    </a>
+  </div>
+<!--END OF IMAGE 05-->
+  </div><!--/thumblist-->
+</body>
