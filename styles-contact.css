@@ -189,7 +189,7 @@ h6 { /* PARAGRAPH FOR ABOUT US */
     /*display: inline-block;*/
     vertical-align: middle;
 	float: left;
-	padding: 10px;
+	padding: .5em;
     /*margin-right: 20px;
     margin-top: 15px;    /* if you want it vertically middle of the navbar. */
 }
@@ -198,9 +198,9 @@ h6 { /* PARAGRAPH FOR ABOUT US */
     /*display: inline-block;*/
     vertical-align: top;
 	float: left;
-    margin-right: 30px;
-    height: 80px;        /* if you want it to take the full height of the bar */
-    line-height: 80px;    /* if you want it vertically middle of the navbar */
+    margin-right: 10em;
+    height: 20em;        /* if you want it to take the full height of the bar */
+    line-height: 20em;    /* if you want it vertically middle of the navbar */
 }
 
 nav li {
@@ -209,7 +209,7 @@ nav li {
 
 nav a {
 	display: inline-block;
-	padding: 10px;
+	padding: .5em;
 	color: #444;
 	text-decoration-line: none;
 }
@@ -228,7 +228,7 @@ a:hover {
 /* Dropdown Button */
 .dropbtn {
 	color: #444;
-	font-size: 20px;
+	font-size: 1em;
 	border: none;
 	font-family: calling-code,sans-serif;
 	font-weight: 700;
